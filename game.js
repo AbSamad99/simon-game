@@ -23,7 +23,7 @@ $(document).keypress(function() {
 });
 
 function flash(color){
-  $("#"+color).fadeOut(250).fadeIn(250);
+  $("#"+color).fadeOut(100).fadeIn(100);
 }
 
 function animateFlash(color){
